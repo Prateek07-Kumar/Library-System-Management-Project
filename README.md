@@ -11,3 +11,5 @@ This project demonstrates the implementation of a Library Management System usin
 ![Library_project](https://github.com/Prateek07-Kumar/Library-System-Management-Project/blob/main/library.jpg)
 
 ## Objectives
+
+1. **Set up the Library Management System Database**: Create and populate the database with tables for branches, employees, members, books, issued status, and return status.
