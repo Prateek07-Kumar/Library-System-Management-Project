@@ -46,4 +46,5 @@ CREATE TABLE employees
             emp_name VARCHAR(30),
             position VARCHAR(30),
             salary DECIMAL(10,2),
+            branch_id VARCHAR(10),
             
