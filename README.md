@@ -45,4 +45,5 @@ CREATE TABLE employees
             emp_id VARCHAR(10) PRIMARY KEY,
             emp_name VARCHAR(30),
             position VARCHAR(30),
+            salary DECIMAL(10,2),
             
