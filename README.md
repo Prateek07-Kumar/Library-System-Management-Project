@@ -36,3 +36,7 @@ CREATE TABLE branch
             branch_address VARCHAR(30),
             contact_no VARCHAR(15)
 );
+
+
+-- Create table "Employee"
+DROP TABLE IF EXISTS employees;
