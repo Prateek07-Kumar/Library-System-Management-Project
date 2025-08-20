@@ -21,3 +21,5 @@ This project demonstrates the implementation of a Library Management System usin
 
 ### 1. Database Setup
 ![ERD](https://github.com/Prateek07-Kumar/Library-System-Management-Project/blob/main/library_erd.png)
+
+- **Database Creation**: Created a database named `library_db`.
