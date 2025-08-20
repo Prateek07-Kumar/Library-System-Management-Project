@@ -40,3 +40,5 @@ CREATE TABLE branch
 
 -- Create table "Employee"
 DROP TABLE IF EXISTS employees;
+CREATE TABLE employees
+(
