@@ -24,3 +24,15 @@ This project demonstrates the implementation of a Library Management System usin
 
 - **Database Creation**: Created a database named `library_db`.
 - **Table Creation**: Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships.
+
+```sql
+CREATE DATABASE library_db;
+
+DROP TABLE IF EXISTS branch;
+CREATE TABLE branch
+(
+            branch_id VARCHAR(10) PRIMARY KEY,
+            manager_id VARCHAR(10),
+            branch_address VARCHAR(30),
+            contact_no VARCHAR(15)
+);
