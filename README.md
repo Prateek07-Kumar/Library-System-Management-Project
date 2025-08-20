@@ -23,3 +23,4 @@ This project demonstrates the implementation of a Library Management System usin
 ![ERD](https://github.com/Prateek07-Kumar/Library-System-Management-Project/blob/main/library_erd.png)
 
 - **Database Creation**: Created a database named `library_db`.
+- **Table Creation**: Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships.
