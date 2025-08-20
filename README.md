@@ -42,3 +42,4 @@ CREATE TABLE branch
 DROP TABLE IF EXISTS employees;
 CREATE TABLE employees
 (
+            emp_id VARCHAR(10) PRIMARY KEY,
