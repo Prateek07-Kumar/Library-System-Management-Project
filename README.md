@@ -47,4 +47,5 @@ CREATE TABLE employees
             position VARCHAR(30),
             salary DECIMAL(10,2),
             branch_id VARCHAR(10),
+            FOREIGN KEY (branch_id) REFERENCES  branch(branch_id)
             
