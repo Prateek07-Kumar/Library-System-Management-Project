@@ -43,3 +43,4 @@ DROP TABLE IF EXISTS employees;
 CREATE TABLE employees
 (
             emp_id VARCHAR(10) PRIMARY KEY,
+            emp_name VARCHAR(30),
