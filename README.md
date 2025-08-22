@@ -49,3 +49,6 @@ CREATE TABLE employees
             branch_id VARCHAR(10),
             FOREIGN KEY (branch_id) REFERENCES  branch(branch_id)
 );
+
+-- Create table "Members"
+
