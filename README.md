@@ -58,3 +58,4 @@ CREATE TABLE members
             member_name VARCHAR(30),
             member_address VARCHAR(30),
             reg_date DATE
+);
