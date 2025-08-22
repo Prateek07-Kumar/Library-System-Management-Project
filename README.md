@@ -51,4 +51,5 @@ CREATE TABLE employees
 );
 
 -- Create table "Members"
+DROP TABLE IF EXISTS members;
 
