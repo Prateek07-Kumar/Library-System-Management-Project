@@ -56,3 +56,4 @@ CREATE TABLE members
 (
             member_id VARCHAR(10) PRIMARY KEY,
             member_name VARCHAR(30),
+            member_address VARCHAR(30),
