@@ -54,3 +54,4 @@ CREATE TABLE employees
 DROP TABLE IF EXISTS members;
 CREATE TABLE members
 (
+            member_id VARCHAR(10) PRIMARY KEY,
