@@ -59,3 +59,6 @@ CREATE TABLE members
             member_address VARCHAR(30),
             reg_date DATE
 );
+
+-- Create table "Books"
+
