@@ -71,5 +71,5 @@ CREATE TABLE books
             status VARCHAR(10),
             author VARCHAR(30),
             publisher VARCHAR(30)
-)
+);
             
