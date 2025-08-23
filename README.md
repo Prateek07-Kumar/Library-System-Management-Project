@@ -67,4 +67,6 @@ CREATE TABLE books
             isbn VARCHAR(50) PRIMARY KEY,
             book_title VARCHAR(80),
             category VARCHAR(30),
+            rental_price DECIMAL(10,2),
+            
             
