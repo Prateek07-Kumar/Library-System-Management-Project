@@ -61,4 +61,5 @@ CREATE TABLE members
 );
 
 -- Create table "Books"
+DROP TABLE IF EXISTS books;
 
