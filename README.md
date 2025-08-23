@@ -64,5 +64,4 @@ CREATE TABLE members
 DROP TABLE IF EXISTS books;
 CREATE TABLE books
 (
-
-
+             isbn VARCHAR(50) PRIMARY KEY,
