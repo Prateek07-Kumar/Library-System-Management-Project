@@ -68,5 +68,6 @@ CREATE TABLE books
             book_title VARCHAR(80),
             category VARCHAR(30),
             rental_price DECIMAL(10,2),
+            status VARCHAR(10),
             
             
