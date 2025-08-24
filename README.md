@@ -77,4 +77,5 @@ CREATE TABLE books
 DROP TABLE IF EXISTS issued_status;
 CREATE TABLE issued_status
 (
-            
+            issued_id VARCHAR(10) PRIMARY KEY,
+            issued_member_id VARCHAR(30),
