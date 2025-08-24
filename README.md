@@ -84,3 +84,5 @@ CREATE TABLE issued_status
             issued_book_isbn VARCHAR(50),
             issued_emp_id VARCHAR(10),
             FOREIGN KEY (issued_member_id) REFERENCES members
+            (member_id),
+            FOREIGN KEY (issued_emp_id) REFERENCES employees(emp_id),
