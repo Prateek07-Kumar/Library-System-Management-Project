@@ -79,3 +79,4 @@ CREATE TABLE issued_status
 (
             issued_id VARCHAR(10) PRIMARY KEY,
             issued_member_id VARCHAR(30),
+            issued_book_name VARCHAR(80),
