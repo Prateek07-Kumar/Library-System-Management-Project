@@ -82,3 +82,4 @@ CREATE TABLE issued_status
             issued_book_name VARCHAR(80),
             issued_date DATE,
             issued_book_isbn VARCHAR(50),
+            issued_emp_id VARCHAR(10),
