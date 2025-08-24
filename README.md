@@ -74,4 +74,5 @@ CREATE TABLE books
 );
 
 -- Create table "IssueStatus"
+DROP TABLE IF EXISTS issued_status;
             
