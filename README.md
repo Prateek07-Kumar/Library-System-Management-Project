@@ -72,4 +72,6 @@ CREATE TABLE books
             author VARCHAR(30),
             publisher VARCHAR(30)
 );
+
+-- Create table "IssueStatus"
             
