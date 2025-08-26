@@ -95,3 +95,4 @@ CREATE TABLE return_status
 (
             return_id VARCHAR(10) PRIMARY KEY,
             issued_id VARCHAR(30),
+            return_book_name VARCHAR(80),
