@@ -93,3 +93,4 @@ CREATE TABLE issued_status
 DROP TABLE IF EXISTS return_status;
 CREATE TABLE return_status
 (
+            return_id VARCHAR(10) PRIMARY KEY,
