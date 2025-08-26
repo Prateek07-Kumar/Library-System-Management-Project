@@ -91,3 +91,4 @@ CREATE TABLE issued_status
 
 -- Create table "ReturnStatus"
 DROP TABLE IF EXISTS return_status;
+CREATE TABLE return_status
