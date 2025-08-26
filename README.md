@@ -97,3 +97,4 @@ CREATE TABLE return_status
             issued_id VARCHAR(30),
             return_book_name VARCHAR(80),
             return_date DATE,
+            return_book_isbn VARCHAR(50),
