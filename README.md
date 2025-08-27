@@ -108,3 +108,4 @@ CREATE TABLE return_status
 
 - **Create**: Inserted sample records into the `books` table.
 - **Read**: Retrieved and displayed data from various tables.
+- **Update**: Updated records in the `employees` table.
