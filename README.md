@@ -110,3 +110,5 @@ CREATE TABLE return_status
 - **Read**: Retrieved and displayed data from various tables.
 - **Update**: Updated records in the `employees` table.
 - **Delete**: Removed records from the `members` table as needed.
+
+**Task 1. Create a New Book Record**
