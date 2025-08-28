@@ -134,3 +134,5 @@ WHERE member_id = 'C103';
 DELETE FROM issued_status
 WHERE   issued_id =   'IS121';
 ```
+
+**Task 4: Retrieve All Books Issued by a Specific Employee**
