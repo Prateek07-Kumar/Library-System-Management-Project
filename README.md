@@ -136,3 +136,5 @@ WHERE   issued_id =   'IS121';
 ```
 
 **Task 4: Retrieve All Books Issued by a Specific Employee**
+-- Objective: Select all books issued by the employee with emp_id = 'E101'.
+```sql
