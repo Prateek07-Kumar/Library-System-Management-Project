@@ -127,6 +127,6 @@ SET member_address = '125 Oak St'
 WHERE member_id = 'C103';
 ```
 
-
+**Task 3: Delete a Record from the Issued Status Table**
 
 
