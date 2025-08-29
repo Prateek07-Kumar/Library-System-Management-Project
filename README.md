@@ -165,4 +165,7 @@ HAVING COUNT(*) > 1
 CREATE TABLE book_issued_cnt AS
 SELECT b.isbn, b.book_title, COUNT(ist.issued_id) AS issue_count
 FROM issued_status as ist
-
+JOIN books as b
+ON ist.issued_book_isbn = b.isbn
+GROUP BY b.isbn, b.book_title;
+```
