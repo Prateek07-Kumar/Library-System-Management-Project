@@ -151,4 +151,10 @@ WHERE issued_emp_id = 'E101'
 
 ```sql
 SELECT
+    issued_emp_id,
+    COUNT(*)
+FROM issued_status
+GROUP BY 1
+HAVING COUNT(*) > 1
+```
 
