@@ -143,5 +143,6 @@ WHERE issued_emp_id = 'E101'
 ```
 
 **Task 5: List Members Who Have Issued More Than One Book**
+
 -- Objective: Use GROUP BY to find members who have issued more than one book.
 
