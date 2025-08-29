@@ -128,6 +128,7 @@ WHERE member_id = 'C103';
 ```
 
 **Task 3: Delete a Record from the Issued Status Table**
+
 -- Objective: Delete the record with issued_id = 'IS121' from the issued_status table.
 
 ```sql
