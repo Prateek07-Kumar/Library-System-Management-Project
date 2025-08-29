@@ -159,3 +159,5 @@ HAVING COUNT(*) > 1
 ```
 ### 3. CTAS (Create Table As Select)
 
+- **Task 6: Create Summary Tables**:
+
