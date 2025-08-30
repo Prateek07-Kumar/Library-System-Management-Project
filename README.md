@@ -198,3 +198,7 @@ GROUP BY 1
 ```
 
 9. **List Members Who Registered in the Last 180 Days**:
+```sql
+SELECT * FROM members
+WHERE reg_date >= CURRENT_DATE - INTERVAL '180 days';
+```
