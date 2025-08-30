@@ -174,4 +174,9 @@ GROUP BY b.isbn, b.book_title;
 
 The following SQL queries were used to address specific questions:
 
+Task 7. **Retrieve All Books in a Specific Category**:
 
+```sql
+SELECT * FROM books
+WHERE category = 'Classic';
+```
