@@ -189,5 +189,12 @@ SELECT
     b.category,
     SUM(b.rental_price),
     COUNT(*)
+FROM 
+issued_status as ist
+JOIN
+books as b
+ON b.isbn = ist.issued_book_isbn
+GROUP BY 1
+```
 
 
