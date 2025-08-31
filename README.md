@@ -202,3 +202,6 @@ GROUP BY 1
 SELECT * FROM members
 WHERE reg_date >= CURRENT_DATE - INTERVAL '180 days';
 ```
+
+10. **List Employees with Their Branch Manager's Name and their branch details**:
+
