@@ -226,3 +226,5 @@ Task 11. **Create a Table of Books with Rental Price Above a Certain Threshold**
 ```sql
 CREATE TABLE expensive_books AS
 SELECT * FROM books
+WHERE rental_price > 7.00;
+```
