@@ -205,3 +205,8 @@ WHERE reg_date >= CURRENT_DATE - INTERVAL '180 days';
 
 10. **List Employees with Their Branch Manager's Name and their branch details**:
 
+```sql
+SELECT 
+    e1.emp_id,
+    e1.emp_name,
+    e1.position,
