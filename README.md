@@ -214,3 +214,6 @@ SELECT
     b.*,
     e2.emp_name as manager
 FROM employees as e1
+JOIN 
+branch as b
+ON e1.branch_id = b.branch_id 
