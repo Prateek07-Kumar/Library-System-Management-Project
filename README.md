@@ -225,3 +225,4 @@ ON e2.emp_id = b.manager_id
 Task 11. **Create a Table of Books with Rental Price Above a Certain Threshold**:
 ```sql
 CREATE TABLE expensive_books AS
+SELECT * FROM books
