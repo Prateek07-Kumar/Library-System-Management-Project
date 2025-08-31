@@ -216,4 +216,9 @@ SELECT
 FROM employees as e1
 JOIN 
 branch as b
-ON e1.branch_id = b.branch_id 
+ON e1.branch_id = b.branch_id
+JOIN
+employees as e2
+ON e2.emp_id = b.manager_id
+```
+
