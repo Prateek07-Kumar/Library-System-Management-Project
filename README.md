@@ -210,3 +210,7 @@ SELECT
     e1.emp_id,
     e1.emp_name,
     e1.position,
+    e1.salary,
+    b.*,
+    e2.emp_name as manager
+FROM employees as e1
