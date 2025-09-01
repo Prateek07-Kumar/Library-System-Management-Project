@@ -230,3 +230,4 @@ WHERE rental_price > 7.00;
 ```
 
 Task 12: **Retrieve the List of Books Not Yet Returned**
+```sql
