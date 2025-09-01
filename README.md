@@ -255,3 +255,7 @@ FROM issued_status as ist
 JOIN 
 members as m
     ON m.member_id = ist.issued_member_id
+JOIN 
+books as bk
+ON bk.isbn = ist.issued_book_isbn
+LEFT JOIN 
