@@ -233,3 +233,7 @@ Task 12: **Retrieve the List of Books Not Yet Returned**
 ```sql
 SELECT * FROM issued_status as ist
 LEFT JOIN
+return_status as rs
+ON rs.issued_id = ist.issued_id
+WHERE rs.return_id IS NULL;
+```
