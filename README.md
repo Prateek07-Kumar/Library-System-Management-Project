@@ -251,3 +251,7 @@ SELECT
     ist.issued_date,
     -- rs.return_date,
     CURRENT_DATE - ist.issued_date as over_dues_days
+FROM issued_status as ist
+JOIN 
+members as m
+    ON m.member_id = ist.issued_member_id
