@@ -258,4 +258,7 @@ members as m
 JOIN 
 books as bk
 ON bk.isbn = ist.issued_book_isbn
-LEFT JOIN 
+LEFT JOIN
+return_status as rs
+ON rs.issued_id = ist.issued_id
+WHERE  
