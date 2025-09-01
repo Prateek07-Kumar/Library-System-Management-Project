@@ -237,3 +237,5 @@ return_status as rs
 ON rs.issued_id = ist.issued_id
 WHERE rs.return_id IS NULL;
 ```
+
+## Advanced SQL Operations
