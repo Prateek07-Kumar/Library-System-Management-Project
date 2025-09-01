@@ -261,4 +261,9 @@ ON bk.isbn = ist.issued_book_isbn
 LEFT JOIN
 return_status as rs
 ON rs.issued_id = ist.issued_id
-WHERE  
+WHERE
+    rs.return_date IS NULL
+    AND
+    (CURRENT_DATE - ist.issued_date) > 30
+ORDER BY 1
+``` 
