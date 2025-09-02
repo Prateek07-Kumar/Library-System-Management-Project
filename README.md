@@ -280,3 +280,6 @@ AS $$
 DECLARE
     v_isbn VARCHAR(50);
     v_book_name VARCHAR(80);
+BEGIN
+    -- all your logic and code
+    -- inserting into returns based on users input
