@@ -276,3 +276,7 @@ Write a query to update the status of books in the books table to "Yes" when the
 CREATE OR REPLACE PROCEDURE add_return_records(p_return_id VARCHAR(10), p_issued_id VARCHAR(10), p_book_quality VARCHAR(10))
 LANGUAGE plpgsql
 AS $$
+
+DECLARE
+    v_isbn VARCHAR(50);
+    v_book_name VARCHAR(80);
