@@ -295,3 +295,11 @@ BEGIN
     FROM issued_status
     WHERE issued_id = p_issued_id;
 
+    UPDATE books
+    SET status = 'yes'
+    WHERE isbn = v_isbn;
+
+    RAISE NOTICE 'Thank you for returning the book: %', v_book_name;
+    
+END;
+$$
