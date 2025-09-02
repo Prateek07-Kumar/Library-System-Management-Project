@@ -286,3 +286,12 @@ BEGIN
     INSERT INTO return_status(return_id, issued_id, return_date, book_quality)
     VALUES
     (p_return_id, p_issued_id, CURRENT_DATE, p_book_quality);
+     SELECT 
+        issued_book_isbn,
+        issued_book_name
+        INTO
+        v_isbn,
+        v_book_name
+    FROM issued_status
+    WHERE issued_id = p_issued_id;
+
