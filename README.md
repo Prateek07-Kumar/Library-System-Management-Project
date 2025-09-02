@@ -266,4 +266,6 @@ WHERE
     AND
     (CURRENT_DATE - ist.issued_date) > 30
 ORDER BY 1
-``` 
+```
+
+**Task 14: Update Book Status on Return**  
