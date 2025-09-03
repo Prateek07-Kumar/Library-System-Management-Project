@@ -355,3 +355,5 @@ GROUP BY 1, 2;
 
 SELECT * FROM branch_reports;
 ```
+
+**Task 16: CTAS: Create a Table of Active Members** 
