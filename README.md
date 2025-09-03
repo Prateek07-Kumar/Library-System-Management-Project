@@ -338,3 +338,20 @@ SELECT
     COUNT(ist.issued_id) as number_book_issued,
     COUNT(rs.return_id) as number_of_book_return,
     SUM(bk.rental_price) as total_revenue
+FROM issued_status as ist
+JOIN 
+employees as e
+ON e.emp_id = ist.issued_emp_id
+JOIN
+branch as b
+ON e.branch_id = b.branch_id
+LEFT JOIN
+return_status as rs
+ON rs.issued_id = ist.issued_id
+JOIN 
+books as bk
+ON ist.issued_book_isbn = bk.isbn
+GROUP BY 1, 2;
+
+SELECT * FROM branch_reports;
+```
