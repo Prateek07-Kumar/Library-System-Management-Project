@@ -332,4 +332,9 @@ Create a query that generates a performance report for each branch, showing the 
 ```sql
 CREATE TABLE branch_reports
 AS
-SELECT 
+SELECT
+    b.branch_id,
+    b.manager_id,
+    COUNT(ist.issued_id) as number_book_issued,
+    COUNT(rs.return_id) as number_of_book_return,
+    SUM(bk.rental_price) as total_revenue
