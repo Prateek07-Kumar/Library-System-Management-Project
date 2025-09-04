@@ -390,3 +390,4 @@ WHERE member_id IN (SELECT
                         issued_date >= CURRENT_DATE - INTERVAL '2 month'
                     )
 ;
+
