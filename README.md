@@ -391,3 +391,4 @@ WHERE member_id IN (SELECT
                     )
 ;
 
+SELECT * FROM active_members;
