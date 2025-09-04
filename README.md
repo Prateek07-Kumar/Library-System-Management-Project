@@ -381,3 +381,5 @@ active_members containing members who have issued at least one book in the last 
 ```sql
 
 CREATE TABLE active_members
+AS
+SELECT * FROM members
