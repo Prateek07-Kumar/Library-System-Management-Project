@@ -373,3 +373,6 @@ WHERE member_id IN (SELECT
 ;
 
 SELECT * FROM active_members;
+
+**Task 16: CTAS: Create a Table of Active Members** 
+
