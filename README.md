@@ -375,5 +375,5 @@ WHERE member_id IN (SELECT
 SELECT * FROM active_members;
 
 **Task 16: CTAS: Create a Table of Active Members**
-Use the CREATE TABLE AS (CTAS)
+Use the CREATE TABLE AS (CTAS) statement to create a new table 
 
