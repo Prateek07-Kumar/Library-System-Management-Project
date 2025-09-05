@@ -398,3 +398,11 @@ SELECT * FROM active_members;
 **Task 17: Find Employees with the Most Book Issues Processed**
 Write a query to find the top 3 employees who have processed the most book issues. Display the employee name, number of books processed, and their branch.
 
+```sql
+SELECT 
+    e.emp_name,
+    b.*,
+    COUNT(ist.issued_id) as no_book_issued
+FROM issued_status as ist
+JOIN
+
