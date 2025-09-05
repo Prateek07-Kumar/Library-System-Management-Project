@@ -414,3 +414,5 @@ ON e.branch_id = b.branch_id
 GROUP BY 1, 2
 ```
 
+**Task 18: Identify Members Issuing High-Risk Books**
+
