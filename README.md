@@ -405,4 +405,12 @@ SELECT
     COUNT(ist.issued_id) as no_book_issued
 FROM issued_status as ist
 JOIN
+JOIN
+employees as e
+ON e.emp_id = ist.issued_emp_id
+JOIN
+branch as b
+ON e.branch_id = b.branch_id
+GROUP BY 1, 2
+```
 
