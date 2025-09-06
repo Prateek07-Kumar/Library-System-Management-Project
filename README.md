@@ -457,3 +457,8 @@ BEGIN
        VALUES
        (p_issued_id, p_issued_member_id, CURRENT_DATE,
        p_issued_book_isbn, p_issued_emp_id);
+
+       UPDATE books
+            SET status = 'no'
+        WHERE isbn = p_issued_book_isbn;
+
