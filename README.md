@@ -432,4 +432,5 @@ If the book is not available (status = 'no'), the procedure should return an err
 
 CREATE OR REPLACE PROCEDURE issue_book(p_issued_id VARCHAR(10),
 p_issued_member_id VARCHAR(30), p_issued_book_isbn VARCHAR(30),
+p_issued_emp_id VARCHAR(10))
 
