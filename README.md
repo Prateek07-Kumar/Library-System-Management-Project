@@ -436,3 +436,7 @@ p_issued_emp_id VARCHAR(10))
 LANGUAGE plpgsql
 AS $$
 
+DECLARE
+-- all the variabable
+    v_status VARCHAR(10);
+
