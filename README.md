@@ -427,3 +427,6 @@ The stored procedure should take the book_id as an input parameter.
 The procedure should first check if the book is available (status = 'yes').
 If the book is available, it should be issued, and the status in the books table should be updated to 'no'.
 If the book is not available (status = 'no'), the procedure should return an error message indicating that the book is currently not available.
+
+```sql
+
