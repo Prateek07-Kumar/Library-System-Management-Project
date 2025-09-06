@@ -440,3 +440,13 @@ DECLARE
 -- all the variabable
     v_status VARCHAR(10);
 
+BEGIN
+-- all the code
+    -- checking if book is available 'yes'
+    SELECT 
+        status 
+        INTO
+        v_status
+    FROM books
+    WHERE isbn = p_issued_book_isbn;
+
