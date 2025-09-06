@@ -452,3 +452,6 @@ BEGIN
 
     IF v_status = 'yes' THEN
 
+       INSERT INTO issued_status(issued_id, issued_member_id, issued_date, issued_book_isbn, issued_emp_id)
+       VALUES
+
