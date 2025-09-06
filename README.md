@@ -455,4 +455,5 @@ BEGIN
        INSERT INTO issued_status(issued_id, issued_member_id,
        issued_date, issued_book_isbn, issued_emp_id)
        VALUES
-
+       (p_issued_id, p_issued_member_id, CURRENT_DATE,
+       p_issued_book_isbn, p_issued_emp_id);
