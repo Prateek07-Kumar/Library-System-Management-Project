@@ -450,3 +450,5 @@ BEGIN
     FROM books
     WHERE isbn = p_issued_book_isbn;
 
+    IF v_status = 'yes' THEN
+
