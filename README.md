@@ -461,4 +461,11 @@ BEGIN
        UPDATE books
             SET status = 'no'
         WHERE isbn = p_issued_book_isbn;
+        RAISE NOTICE 'Book records added successfully for book isbn : %', p_issued_book_isbn;
 
+
+    ELSE
+        RAISE NOTICE 'Sorry to inform you the book you have requested is unavailable book_isbn: %', p_issued_book_isbn;
+    END IF;
+END;
+$$
