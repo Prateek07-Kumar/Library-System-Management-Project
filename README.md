@@ -471,3 +471,4 @@ END;
 $$
 
 -- Testing The function
+SELECT * FROM books;
