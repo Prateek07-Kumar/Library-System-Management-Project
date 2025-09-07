@@ -474,3 +474,4 @@ $$
 SELECT * FROM books;
 -- "978-0-553-29698-2" -- yes
 -- "978-0-375-41398-8" -- no
+SELECT * FROM issued_status;
