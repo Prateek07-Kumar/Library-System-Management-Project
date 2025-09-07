@@ -477,3 +477,4 @@ SELECT * FROM books;
 SELECT * FROM issued_status;
 
 CALL issue_book('IS155', 'C108', '978-0-553-29698-2', 'E104');
+CALL issue_book('IS156', 'C108', '978-0-375-41398-8', 'E104');
