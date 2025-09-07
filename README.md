@@ -472,3 +472,4 @@ $$
 
 -- Testing The function
 SELECT * FROM books;
+-- "978-0-553-29698-2" -- yes
