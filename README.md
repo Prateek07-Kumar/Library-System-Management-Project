@@ -494,4 +494,4 @@ Description: Write a CTAS query to create a new table that lists each member and
     The resulting table should show:
     Member ID
     Number of overdue books
-    Total fines
+    
