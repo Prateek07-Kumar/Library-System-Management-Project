@@ -485,3 +485,4 @@ WHERE isbn = '978-0-375-41398-8'
 ```
 
 **Task 20: Create Table As Select (CTAS)**
+Objective: Create a CTAS (Create Table As Select) query to identify overdue books and calculate fines.
