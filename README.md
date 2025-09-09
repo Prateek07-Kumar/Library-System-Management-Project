@@ -500,3 +500,4 @@ Description: Write a CTAS query to create a new table that lists each member and
 
 - **Database Schema**: Detailed table structures and relationships.
 - **Data Analysis**: Insights into book categories, employee salaries, member registration trends, and issued books.
+- **Summary Reports**: Aggregated data on high-demand books and employee performance.
