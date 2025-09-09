@@ -503,3 +503,5 @@ Description: Write a CTAS query to create a new table that lists each member and
 - **Summary Reports**: Aggregated data on high-demand books and employee performance.
 
 ## Conclusion
+
+This project demonstrates the application of SQL skills in creating and
