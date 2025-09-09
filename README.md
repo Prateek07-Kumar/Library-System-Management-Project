@@ -504,5 +504,4 @@ Description: Write a CTAS query to create a new table that lists each member and
 
 ## Conclusion
 
-This project demonstrates the application of SQL skills in creating and
-managing a library management system. It includes database setup, data 
+This project demonstrates the application of SQL skills in creating and managing a library management system. It includes database setup, data 
