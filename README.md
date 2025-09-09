@@ -497,3 +497,5 @@ Description: Write a CTAS query to create a new table that lists each member and
     Total fines
 
 ## Reports
+
+- **Database Schema**: Detailed table structures and relationships.
