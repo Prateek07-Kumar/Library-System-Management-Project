@@ -511,3 +511,4 @@ This project demonstrates the application of SQL skills in creating and managing
 1. **Clone the Repository**: Clone this repository to your local machine.
    ```sh
    https://github.com/Prateek07-Kumar/Library-System-Management-Project
+   ```
