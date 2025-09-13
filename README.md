@@ -512,3 +512,5 @@ This project demonstrates the application of SQL skills in creating and managing
    ```sh
    https://github.com/Prateek07-Kumar/Library-System-Management-Project.git
    ```
+2. **Set Up the Database**: Execute the SQL scripts in the `database_setup.sql` file to create and populate the database.
+
