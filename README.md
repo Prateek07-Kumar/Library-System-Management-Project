@@ -1,6 +1,6 @@
 # Library-System-Management-Project
 
-## Project Overvie
+## Project Overview
 
 **Project Title**: Library Management System  
 **Level**: Intermediate Level 
