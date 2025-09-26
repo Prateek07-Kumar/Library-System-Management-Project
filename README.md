@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**Project Title**: Library Management System
+**Project Title**: Library Management Syste
 **Level**: Intermediate Level
 **Database**: `library_db`
 
